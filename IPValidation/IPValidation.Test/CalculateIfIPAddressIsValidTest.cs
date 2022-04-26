@@ -1,3 +1,4 @@
+using IPValidation.App;
 using Xunit;
 
 namespace IPValidation.Test
@@ -24,6 +25,7 @@ namespace IPValidation.Test
 
         [Theory]
         [InlineData("", false)]
+        [InlineData(".78.151.74", false)]
 
         public void IsValidIPTest_ShouldReturnFalse_EmptyIP(string ipAddress, bool expected)
         {
@@ -106,8 +108,5 @@ namespace IPValidation.Test
 
             Assert.Equal(expected, actual);
         }
-
-
-
     }
 }

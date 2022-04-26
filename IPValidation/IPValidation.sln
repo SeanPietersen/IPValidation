@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPValidation.Test", "IPValidation.Test\IPValidation.Test.csproj", "{8F31ECAC-61AA-439E-8DB4-2E0C45EC4FFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPValidation.App", "IPValidation.App\IPValidation.App.csproj", "{372454CA-8BB4-4D5D-91E6-AE9A3B1C19FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8F31ECAC-61AA-439E-8DB4-2E0C45EC4FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F31ECAC-61AA-439E-8DB4-2E0C45EC4FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F31ECAC-61AA-439E-8DB4-2E0C45EC4FFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{372454CA-8BB4-4D5D-91E6-AE9A3B1C19FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{372454CA-8BB4-4D5D-91E6-AE9A3B1C19FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{372454CA-8BB4-4D5D-91E6-AE9A3B1C19FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{372454CA-8BB4-4D5D-91E6-AE9A3B1C19FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
